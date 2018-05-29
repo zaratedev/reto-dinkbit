@@ -13522,6 +13522,16 @@ a.text-dark:focus {
   border-radius: 100%;
 }
 
+#location {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+#map {
+  height: 500px;
+}
+
 .full-height {
   height: 100%;
 }

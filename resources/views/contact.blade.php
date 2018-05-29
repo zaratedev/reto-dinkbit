@@ -99,4 +99,14 @@
       </div>
     </div>
   </section>
+  <section class="pt-5 pb-5">
+    <div class="container">
+      <div id="location">
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+@endsection
+@section('js-after')
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTddhn69O0b1iQblWsTexggyLdD3wWzqg" async defer></script>
 @endsection

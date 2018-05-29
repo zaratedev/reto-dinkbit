@@ -17,6 +17,8 @@
   </div>
   @include( 'assets.footer' )
   <!-- Scripts -->
+  @yield('js-after')
   <script src="{{ asset('js/app.js') }}"></script>
+  @yield('js')
 </body>
 </html>
