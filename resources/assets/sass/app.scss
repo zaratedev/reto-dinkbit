@@ -5,6 +5,10 @@
 // Variables
 @import "variables";
 
+// Font awesome
+$fa-font-path: "../../../node_modules/font-awesome/fonts" !default;
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
@@ -30,11 +34,27 @@
   padding:  0px;
   .screen{
     position: relative;
-    background-color: rgba(27, 174, 232, 0.61);
+    background-color: $background-light-blue;
     height: 100%;
     width: 100%;
     transition: top 0.5s;
   }
+}
+
+.image-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 30%;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border-radius: 100%;
 }
 
 .full-height{
@@ -47,4 +67,44 @@
 
 .medium {
   font-size: 1.5em;
+}
+
+.background-blue {
+  background-color: $background-blue;
+}
+
+.background-yellow {
+  background-color: $background-yellow;
+}
+
+.background-info {
+  background-color: $background-info;
+}
+
+.background-grey {
+  background-color: $grey;
+}
+
+.background-purple {
+  background-color: $purple;
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.font-small {
+  font-size: $small;
+}
+
+.font-medium {
+  font-size: $medium;
+}
+
+.font-big {
+  font-size: $big;
+}
+
+.image-footer {
+  width: 30%;
 }

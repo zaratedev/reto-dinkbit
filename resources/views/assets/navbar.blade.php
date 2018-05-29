@@ -20,7 +20,7 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Contacto</a>
         </li>
-        <a class="btn btn-outline-light my-2 my-sm-0 text-uppercase" href="#">Cotiza tu préstamo</a>
+        <a href="{{ route('quote') }}" class="btn btn-outline-light my-2 my-sm-0 text-uppercase">Cotiza tu préstamo</a>
       </ul>
     </div>
   </div>
