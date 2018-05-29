@@ -13491,7 +13491,7 @@ a.text-dark:focus {
 
 .image-heeder .screen {
   position: relative;
-  background-color: rgba(27, 174, 232, 0.61);
+  background-color: #5c9fd88f;
   height: 100%;
   width: 100%;
   -webkit-transition: top 0.5s;
@@ -13556,6 +13556,10 @@ a.text-dark:focus {
 
 .text-blue {
   color: #4B8CDE;
+}
+
+.grey-color {
+  color: #969696;
 }
 
 .font-small {
