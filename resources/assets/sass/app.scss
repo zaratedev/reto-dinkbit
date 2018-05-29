@@ -6,4 +6,45 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import '~bootstrap/scss/bootstrap';
+
+#myNavbar {
+  li {
+    transition: all 0.5s;
+    a {
+      color: white !important;
+      text-transform: uppercase;
+      &:hover{
+        text-decoration: none;
+        color: black !important;
+      }
+    }
+  }
+}
+
+.image-heeder {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding:  0px;
+  .screen{
+    position: relative;
+    background-color: rgba(27, 174, 232, 0.61);
+    height: 100%;
+    width: 100%;
+    transition: top 0.5s;
+  }
+}
+
+.full-height{
+  height: 100%;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.medium {
+  font-size: 1.5em;
+}
