@@ -14,3 +14,4 @@
 Route::get('/', 'HomeController@welcome');
 Route::get('contacto', 'HomeController@contact')->name('contact');
 Route::get('cotiza-tu-prestamo', 'HomeController@quote')->name('quote');
+Route::post('send-email', 'ContactController@sendEmail');

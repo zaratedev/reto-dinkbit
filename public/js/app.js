@@ -13673,7 +13673,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(11);
-module.exports = __webpack_require__(37);
+module.exports = __webpack_require__(36);
 
 
 /***/ }),
@@ -13688,7 +13688,6 @@ module.exports = __webpack_require__(37);
  */
 
 __webpack_require__(12);
-__webpack_require__(36);
 
 /***/ }),
 /* 12 */
@@ -35906,33 +35905,6 @@ module.exports = function spread(callback) {
 
 /***/ }),
 /* 36 */
-/***/ (function(module, exports) {
-
-;
-(function () {
-  // Set latitude and length of dinkbit
-  var my_place = {
-    lat: 19.4036,
-    lng: -99.2404
-  };
-
-  google.maps.event.addDomListener(window, "load", function () {
-    var map = new google.maps.Map(document.getElementById('map'), {
-      center: my_place,
-      zoom: 15
-    });
-
-    var marker = new google.maps.Marker({
-      map: map,
-      position: my_place,
-      title: 'dinkbit',
-      visible: true
-    });
-  });
-})();
-
-/***/ }),
-/* 37 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
