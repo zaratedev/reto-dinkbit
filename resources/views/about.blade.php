@@ -16,3 +16,8 @@
     </div>
   </section>
 @endsection
+@section('js')
+  <script>
+    $("#about").addClass('active');
+  </script>
+@endsection

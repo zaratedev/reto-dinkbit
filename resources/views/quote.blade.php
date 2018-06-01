@@ -119,6 +119,39 @@
           </div>
         </div>
       </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12 mt-2 mb-2">
+          <img src="{{ asset('img/elements/sq-check-xs.png')}}" class="img-fluid d-inline" alt="Lorem ipsum">
+          <p class="font-samll text-secondary d-inline">
+            Lorem ipsum <span class="text-blue">82.86%</span>
+          </p>
+        </div>
+        <div class="col-lg-12 mt-2 mb-2">
+          <img src="{{ asset('img/elements/sq-check-xs.png')}}" class="img-fluid d-inline" alt="Lorem ipsum">
+          <p class="font-samll text-secondary d-inline">
+            Lorem ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+          </p>
+        </div>
+        <div class="col-lg-12 mt-2 mb-2">
+          <img src="{{ asset('img/elements/sq-check-xs.png')}}" class="img-fluid d-inline" alt="Lorem ipsum">
+          <p class="font-samll text-secondary d-inline">
+            Lorem <span class="text-blue">136.46%</span> ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem ipsum ha sido el texto <span class="text-blue">01/10/2015</span>
+          </p>
+        </div>
+        <div class="col-lg-12 mt-2 mb-2">
+          <img src="{{ asset('img/elements/sq-check-xs.png')}}" class="img-fluid d-inline" alt="Lorem ipsum">
+          <p class="font-samll text-secondary d-inline">
+            Lorem ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+          </p>
+        </div>
+        <div class="col-lg-12 mt-2 mb-2">
+          <img src="{{ asset('img/elements/sq-check-xs.png')}}" class="img-fluid d-inline" alt="Lorem ipsum">
+          <p class="font-samll text-secondary d-inline">
+            Lorem ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 @endsection

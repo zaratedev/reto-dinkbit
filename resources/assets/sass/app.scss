@@ -18,11 +18,19 @@ $fa-font-path: "../../../node_modules/font-awesome/fonts" !default;
     a {
       color: white !important;
       text-transform: uppercase;
-      &:hover{
+      cursor: pointer;
+      &:hover, &:focus, &:active {
+        color: $color-white;
         text-decoration: none;
-        color: black !important;
+        border-bottom: solid 1px $color-white;
       }
     }
+  }
+}
+
+.active {
+  a {
+    border-bottom: solid 1px $color-white;
   }
 }
 
@@ -38,6 +46,16 @@ $fa-font-path: "../../../node_modules/font-awesome/fonts" !default;
     height: 100%;
     width: 100%;
     transition: top 0.5s;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #mainNav {
+    background-color: $background-dark !important;
+    .navbar-toggler {
+      color: rgba(255, 255, 255, 0.5);
+      border: rgba(255, 255, 255, 0.1);
+    }
   }
 }
 

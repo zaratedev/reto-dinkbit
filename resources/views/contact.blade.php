@@ -191,6 +191,9 @@
   </section>
 @endsection
 @section('js')
+  <script>
+    $("#contact").addClass('active');
+  </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTddhn69O0b1iQblWsTexggyLdD3wWzqg"></script>
   <script src="{{ asset('js/maps.js') }}"></script>
   <script type="text/javascript">

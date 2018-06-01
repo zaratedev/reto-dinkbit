@@ -2,19 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-6 col-md">
-        <h5 class="text-secondary text-uppercase">Quiénes somos</h5>
+        <h5 class="text-uppercase"><a class="text-secondary" href="{{ route('about') }}"><strong>Quiénes somos</strong></a></h5>
       </div>
       <div class="col-6 col-md">
-        <h5 class="text-secondary text-uppercase">Nuestros servicios</h5>
+        <h5 class="text-uppercase"><a class="text-secondary" href="{{ route('services') }}"><strong>Nuestros servicios</strong></a></h5>
       </div>
       <div class="col-6 col-md">
-        <h5 class="text-secondary text-uppercase">Faq</h5>
+        <h5 class="text-uppercase"><a class="text-secondary" href="{{ route('faqs') }}"><strong>Faq</strong></a></h5>
       </div>
       <div class="col-6 col-md">
-        <h5 class="text-secondary text-uppercase">Contacto</h5>
+        <h5 class="text-uppercase"><a class="text-secondary" href="{{ route('contact') }}"><strong>Contacto</strong></a></h5>
       </div>
       <div class="col-6 col-md">
-        <h5 class="text-secondary text-uppercase">Cotiza</h5>
+        <h5 class="text-uppercase"><a class="text-secondary" href="{{ route('quote') }}"><strong>Cotiza</strong></a></h5>
       </div>
     </div>
     <div class="row">
@@ -38,7 +38,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 d-flex justify-content-start justify-content-md-start">
               <ul class="list-inline text-small">
-                <li class="list-inline-item"><a class="text-white" href="#">¿Preguntas?</a></li>
+                <li class="list-inline-item"><a class="text-white" href="{{ route('faqs') }}">¿Preguntas?</a></li>
                 <li class="list-inline-item"><a class="text-white" href="mailto:contacto@dinkbit.com">contacto@dinkbit.com</a></li>
                 <li class="list-inline-item"><a class="text-white" href="tel:22241607">22241607</a></li>
               </ul>
