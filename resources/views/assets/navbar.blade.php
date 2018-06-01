@@ -9,13 +9,13 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Quiénes somos</a>
+          <a class="nav-link" href="{{ route('about') }}">Quiénes somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nuestros servicios</a>
+          <a class="nav-link" href="{{ route('services') }}">Nuestros servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Faq</a>
+          <a class="nav-link" href="{{ route('faqs') }}">Faq</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('contact') }}">Contacto</a>

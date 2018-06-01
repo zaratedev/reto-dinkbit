@@ -36,14 +36,14 @@
       <div class="row pt-2">
         <div class="col-lg-12 col-md-12">
           <div class="row">
-            <div class="col-lg-6 justify-content-start">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-start justify-content-md-start">
               <ul class="list-inline text-small">
                 <li class="list-inline-item"><a class="text-white" href="#">¿Preguntas?</a></li>
                 <li class="list-inline-item"><a class="text-white" href="mailto:contacto@dinkbit.com">contacto@dinkbit.com</a></li>
                 <li class="list-inline-item"><a class="text-white" href="tel:22241607">22241607</a></li>
               </ul>
             </div>
-            <div class="col-lg-6 d-flex justify-content-end">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-lg-end justify-content-md-start justify-content-sm-start">
               <ul class="list-inline text-small">
                 <li class="list-inline-item text-uppercase text-white">Síguenos en:</li>
                 <li class="list-inline-item"><a class="text-white" href="https://www.facebook.com/dinkbit"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

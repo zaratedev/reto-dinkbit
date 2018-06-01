@@ -20,4 +20,19 @@ class HomeController extends Controller
     {
       return view('quote');
     }
+
+    public function about()
+    {
+      return view('about');
+    }
+
+    public function services()
+    {
+      return view('services');
+    }
+
+    public function faqs()
+    {
+      return view('faqs');
+    }
 }

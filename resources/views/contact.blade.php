@@ -15,7 +15,7 @@
       </div>
     </div>
   </section>
-  <section class="pt-5 pb-5">
+  <section class="pt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12 pb-3">
           @if (session('success'))
             <div class="alert alert-success alert-dismissible fade show mt-2" role="alert">
               {{ session('success') }}
@@ -184,7 +184,7 @@
       </div>
     </div>
   </section>
-  <section class="pt-5 pb-5">
+  <section class="pt-2 pb-5">
     <div class="container">
       <div id="map"></div>
     </div>

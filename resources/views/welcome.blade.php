@@ -133,7 +133,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 mt-4 mb-4">
+        <div class="col-lg-12 mt-4 mb-4">
           <div class="row">
             <div class="col-lg-1 col-md-12 col-sm-12">
               <img src="{{ asset('img/elements/check.png')}}" class="img-fluid" alt="Lorem ipsum">
@@ -145,7 +145,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12 mt-4 mb-4">
+        <div class="col-lg-12 mt-4 mb-4">
           <div class="row">
             <div class="col-lg-1 col-md-12 col-sm-12">
               <img src="{{ asset('img/elements/check.png')}}" class="img-fluid" alt="Lorem ipsum">
@@ -157,7 +157,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12 mt-4 mb-4">
+        <div class="col-lg-12 mt-4 mb-4">
           <div class="row">
             <div class="col-lg-1 col-md-12 col-sm-12">
               <img src="{{ asset('img/elements/check.png')}}" class="img-fluid" alt="Lorem ipsum">
