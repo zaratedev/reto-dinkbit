@@ -95,20 +95,22 @@
                       Ver tabla de amortización
                     </div>
                     <div class="card-body">
-                      <table class="table table-sm">
-                        <thead>
-                          <tr>
-                            <th scope="col">No. de Pago</th>
-                            <th scope="col">Saldo insoluto</th>
-                            <th scope="col">Amortización</th>
-                            <th scope="col">Interés</th>
-                            <th scope="col">IVA</th>
-                            <th scope="col">Pago</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                      </table>
+                      <div class="table-responsive">
+                        <table class="table table-sm" id="tableAmortization">
+                          <thead>
+                            <tr>
+                              <th scope="col">No. de Pago</th>
+                              <th scope="col">Saldo insoluto</th>
+                              <th scope="col">Amortización</th>
+                              <th scope="col">Interés</th>
+                              <th scope="col">IVA</th>
+                              <th scope="col">Pago</th>
+                            </tr>
+                          </thead>
+                          <tbody id="tbody">
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -121,49 +123,5 @@
   </section>
 @endsection
 @section('js')
-  <script>
-  var sliderRode = document.getElementById("sliderRode");
-  var sliderFortnight = document.getElementById("sliderFortnight");
-  // Values of slides
-  var valueRode = sliderRode.value;
-  var valueFortnight = sliderFortnight.value;
-  $(document).ready(function() {
-    // get table of amortization
-    generateTableAmortization(valueRode, valueFortnight);
-  });
-
-  sliderRode.oninput = function() {
-    var labelRode = document.getElementById("labelRode");
-
-    labelRode.innerHTML = '$' + this.value;
-    console.log(this.value);
-    valueRode = this.value;
-    // get table of amortization
-    generateTableAmortization(valueRode, valueFortnight);
-  }
-
-  sliderFortnight.oninput = function() {
-    var labelFortnight = document.getElementById("labelFortnight");
-    labelFortnight.innerHTML = this.value;
-    console.log(this.value);
-    valueFortnight = this.value;
-    // get table of amortization
-    generateTableAmortization(valueRode, valueFortnight);
-  }
-
-  function generateTableAmortization(rode, fortnight) {
-    console.log('monto: ' + rode + ', Quincena: ' + fortnight );
-    axios({
-      method: 'POST',
-      url: 'generate-table-amortization',
-      data: {
-        rode: rode,
-        fortnight: fortnight
-      }
-    }).then( response => {
-      console.log(response);
-    })
-  }
-
-</script>
+  <script src="{{ asset('js/quote.js')}}"></script>
 @endsection
